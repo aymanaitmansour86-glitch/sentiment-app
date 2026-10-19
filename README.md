@@ -71,8 +71,8 @@ sentiment-app/
 
 | Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 |
 | --- | --- | --- | --- |
-| Membre A | [Nom 1] | [@login] | |
-| Membre B | [Nom 2] | [@login] | |
+| Membre A | [aymane aitmansour] | [aymanaitmansour86@gmail.com] | |
+| Membre B | [ayoub elidrissi] | [elidrissiayoub285@gmail.com] | |
 
 - Second membre : Nom Binome
 
