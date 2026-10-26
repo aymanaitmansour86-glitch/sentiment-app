@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentiment-app"
+version = "0.6.0"
+description = "Application d'analyse de sentiment — TP Dev & Deploiement d'applications intelligentes"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Ayman Ait Mansour", email = "aymanaitmansour86@gmail.com" },
+    { name = "Ayoub Elidrissi" },
+]
+license = { text = "MIT" }
+dependencies = [
+    "scikit-learn>=1.4",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "joblib>=1.3",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "streamlit>=1.32",
+    "requests>=2.31",
+]
+
+[project.scripts]
+sentiment = "sentiment_app.cli:main"
+
+[tool.setuptools]
+packages = ["sentiment_app"]
+
+[tool.setuptools.package-data]
+sentiment_app = ["*.joblib", "*.json"]
